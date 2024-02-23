@@ -2,17 +2,17 @@ import { Metadata } from "next"
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Next.js Enterprise Boilerplate",
+  title: "RelaxAds - Digital Marketing Agency",
   twitter: {
     card: "summary_large_image",
   },
   openGraph: {
-    url: "https://next-enterprise.vercel.app/",
+    url: "https://next-relax-ads.vercel.app/",
     images: [
       {
         width: 1200,
         height: 630,
-        url: "https://raw.githubusercontent.com/Blazity/next-enterprise/main/.github/assets/project-logo.png",
+        url: "https://next-relax-ads.vercel.app/_next/image?url=%2Flogo%2FLogo-RelaxAds-md.png&w=128&q=75",
       },
     ],
   },
