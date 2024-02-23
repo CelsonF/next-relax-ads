@@ -1,6 +1,5 @@
 import { Metadata } from "next"
-import { Button } from "components/Button/Button"
-import { LP_GRID_ITEMS } from "lp-items"
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Next.js Enterprise Boilerplate",
@@ -22,43 +21,32 @@ export const metadata: Metadata = {
 export default function Web() {
   return (
     <>
-      <section className="bg-white dark:bg-gray-900">
-        <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
-          <div className="mx-auto place-self-center">
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-              Next.js Enterprise Boilerplate
-            </h1>
-            <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              Jumpstart your enterprise project with our feature-packed, high-performance Next.js boilerplate!
-              Experience rapid UI development, AI-powered code reviews, and an extensive suite of tools for a smooth and
-              enjoyable development process.
-            </p>
-            <Button href="https://github.com/Blazity/next-enterprise" className="mr-3">
-              Get started
-            </Button>
-            <Button
-              href="https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise"
-              intent="secondary"
-            >
-              Deploy Now
-            </Button>
-          </div>
+      <section className="w-full relative h-100 ">
+        <div className="absolute flex flex-col w-full justify-center items-center md:items-center p-4 mt-1  h-full">
+          <h1 className="mb-4 w-full text-2xl md:text-center text-white text-center font-normal leading-none tracking-tight dark:text-white md:text-2xl xl:text-4xl"> Your Bussines </h1>
+          <p className="text-4xl text-white font-semibold"> Digital Marketing Agency</p>
+          <p className="text-2xl text-white font-extralight mt-4"> Discover Serenity in Every Click: Welcome to RelaxAds – Where Tranquility Meets Innovation</p>
+        </div>
+        <Image src="/bg-01.png" alt="" sizes="100vw" width={500} height={600} style={{
+          width: '100%',
+          height: '80vh',
+          objectFit: 'cover'
+        }}  ></Image>
+      </section>
+      
+      <section className="w-full flex justify-center absolute">
+        <div className="flex w-full mx-4 md:w-10/12  bg-white/80 backdrop-blur supports-backdrop-blur:bg-white/95 -mt-20 rounded-md z-30 ">
+          <form action="" className="grid md:grid-cols-4 gap-4 w-full  p-4 md:py-12 md:px-6 z-50">
+            <input type="text" className="w-full rounded-lg bg-transparent text-black border-b-4 placeholder:text-slate-900  border-blue-900 p-2" placeholder="Full Name" />
+            <input type="email" className="w-full rounded-lg bg-transparent text-black border-b-4 placeholder:text-slate-900  border-blue-900 p-2"  placeholder="Email Address"/>
+            <input type="tel" className="w-full rounded-lg bg-transparent text-black border-b-4 placeholder:text-slate-900  border-blue-900 p-2"  placeholder="Phone Number"/>
+            <input className="px-6 py-3 w-full  cursor-pointer text-lg rounded-lg font-light text-blue-50  tracking-wide  bg-gradient-to-b from-blue-600 to-blue-800" type="button" value="Get Started"/>
+          </form>
         </div>
       </section>
-      <section className="bg-white dark:bg-gray-900">
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
-          <div className="justify-center space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0 lg:grid-cols-3">
-            {LP_GRID_ITEMS.map((singleItem) => (
-              <div key={singleItem.title} className="flex flex-col items-center justify-center text-center">
-                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 p-1.5 text-blue-700 dark:bg-primary-900 lg:h-12 lg:w-12">
-                  {singleItem.icon}
-                </div>
-                <h3 className="mb-2 text-xl font-bold dark:text-white">{singleItem.title}</h3>
-                <p className="text-gray-500 dark:text-gray-400">{singleItem.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+
+      <section className="w-full flex  bg-gradient-to-b from-blue-600 to-blue-800 h-64">
+
       </section>
     </>
   )
