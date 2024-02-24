@@ -8,7 +8,7 @@ export const Footer = () => {
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a href="#" className="flex items-center">
-                        <Image src="/logo/Logo-RelaxAds-md.png" width={200} height={200} alt="" className="pr-2 flex justify-center items-center " />
+                            <Image src="/logo/Logo-RelaxAds-md.png" width={200} height={200} alt="" className="pr-2 flex justify-center items-center " />
                         </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
