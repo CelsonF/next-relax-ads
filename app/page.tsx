@@ -73,10 +73,11 @@ export default function Web() {
           <Image className="w-full md:w-5/12 p-8 rounded-md" src="/bg-01.png" alt="" sizes="100vw" width={500} height={600}></Image>
           <div className=" w-full md:w-7/12 tracking-wide">
             <h1 className="font-bold text-3xl pb-4 tracking-wide">Our Story</h1>
-            <p>RelaxAds, founded by brothers John and Mark Smith, emerged from a shared passion for the digital landscape. Through innovation and unwavering dedication, RelaxAds swiftly earned its place as one of America's rapidly growing companies.
+            <p>
+              {`RelaxAds, founded by brothers John and Mark Smith, emerged from a shared passion for the digital landscape. Through innovation and unwavering dedication, RelaxAds swiftly earned its place as one of America's rapidly growing companies.`}
             </p>
             <p>
-              Their commitment to client satisfaction reflects in over 100 glowing 5-star reviews since their establishment in 2011. When Dun & Bradstreet inquired about service quality satisfaction, RelaxAds scored an outstanding 97%. Their ability to exceed client expectations keeps the RelaxAds family expanding.
+              {`Their commitment to client satisfaction reflects in over 100 glowing 5-star reviews since their establishment in 2011. When Dun & Bradstreet inquired about service quality satisfaction, RelaxAds scored an outstanding 97%. Their ability to exceed client expectations keeps the RelaxAds family expanding.`}
             </p>
           </div>
         </div>
