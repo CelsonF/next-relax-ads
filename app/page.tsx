@@ -69,7 +69,7 @@ export default function Web() {
       </section>
 
       <section className="flex justify-center w-full py-12">
-        <div className="w-10/12 flex flex-col">
+        <div className="w-10/12 flex flex-col md:flex-row">
           <Image className="w-full md:w-5/12 p-8 rounded-md" src="/bg-01.png" alt="" sizes="100vw" width={500} height={600}></Image>
           <div className=" w-full md:w-7/12 tracking-wide">
             <h1 className="font-bold text-3xl pb-4 tracking-wide">Our Story</h1>
