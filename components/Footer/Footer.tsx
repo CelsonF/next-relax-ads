@@ -8,13 +8,13 @@ export const Footer = () => {
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a href="#" className="flex items-center">
-                            <Image src="/logo/Logo-RelaxAds-md.png" width={200} height={200} alt="" className="pr-2 flex justify-center items-center " />
+                            <Image src="/logo/Logo-RelaxAds-md.png" width={100} height={100} alt="" className="pr-2 flex justify-center items-center " />
                         </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"> Recursos </h2>
-                            <ul className="text-gray-600 dark:text-gray-400">
+                            <h2 className="mb-6 text-sm font-semibold text-gray-400 uppercase dark:text-white"> Recursos </h2>
+                            <ul className="text-gray-500 dark:text-gray-400">
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline">Flowbite</a>
                                 </li>
@@ -24,8 +24,8 @@ export const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Siga Nós</h2>
-                            <ul className="text-gray-600 dark:text-gray-400">
+                            <h2 className="mb-6 text-sm font-semibold text-gray-400 uppercase dark:text-white">Nós Siga</h2>
+                            <ul className="text-gray-500 dark:text-gray-400">
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline ">Github</a>
                                 </li>

@@ -85,8 +85,8 @@ export default function Web() {
 
       <section className="flex w-full flex-col items-center font-bold text-slate-100 bg-slate-950">
         <h1 className="text-3xl text-center py-8">Our Clients love working with us</h1>
-        <div className="w-10/12 grid grid-cols-3 pb-8 gap-4">
-          <div className="bg-slate-50 rounded-lg">
+        <div className="w-10/12  grid lg:grid-cols-3 pb-8 gap-4">
+        <div className="bg-slate-50 rounded-lg">
             <div className="min-h-fit h-36 overflow-hidden">
               <Image className="pb-4 object-cover w-full" src="/bg-testemonials-default.png" alt="" sizes="100vw" width={100} height={100} ></Image>
             </div>
@@ -97,14 +97,13 @@ export default function Web() {
             </div>
             <h1 className="font-light text-slate-500 px-4" >Name of people</h1>
             <h2 className="font-normal text-slate-950 px-4 text-2xl"> Segmentation of bussiness </h2>
-            <div className="text-center py-2 my-4 text-xl font-medium bg-gradient-to-b from-blue-600 to-blue-800 -mx-1">
+            <div className="text-center py-2 mt-4 text-xl font-medium bg-gradient-to-b from-blue-600 to-blue-800 -mx-1">
               Title of testemonials
             </div>
             <p className="px-4 font-light text-slate-950 py-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tempor dolor, quis malesuada diam. Integer imperdiet justo ut ex fermentum, nec scelerisque nisl commodo. Integer posuere turpis vitae facilisis dignissim. Vestibulum mollis urna aliquet, suscipit est at, sodales elit. Aenean nec erat sagittis, suscipit ante non, sodales nunc.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tempor dolor, quis malesuada diam. Integer imperdiet justo ut ex fermentum, nec scelerisque nisl commodo. Integer posuere turpis vitae facilisis dignissim.
             </p>
-          </div>
-          <div className="bg-slate-800 rounded-lg">
+          </div>          <div className="bg-slate-50 rounded-lg">
             <div className="min-h-fit h-36 overflow-hidden">
               <Image className="pb-4 object-cover w-full" src="/bg-testemonials-default.png" alt="" sizes="100vw" width={100} height={100} ></Image>
             </div>
@@ -115,14 +114,13 @@ export default function Web() {
             </div>
             <h1 className="font-light text-slate-500 px-4" >Name of people</h1>
             <h2 className="font-normal text-slate-950 px-4 text-2xl"> Segmentation of bussiness </h2>
-            <div className="text-center py-2 my-4 text-xl font-medium bg-gradient-to-b from-blue-600 to-blue-800 -mx-1">
+            <div className="text-center py-2 mt-4 text-xl font-medium bg-gradient-to-b from-blue-600 to-blue-800 -mx-1">
               Title of testemonials
             </div>
-            <p className="px-4 font-light py-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tempor dolor, quis malesuada diam. Integer imperdiet justo ut ex fermentum, nec scelerisque nisl commodo. Integer posuere turpis vitae facilisis dignissim. Vestibulum mollis urna aliquet, suscipit est at, sodales elit. Aenean nec erat sagittis, suscipit ante non, sodales nunc.
+            <p className="px-4 font-light text-slate-950 py-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tempor dolor, quis malesuada diam. Integer imperdiet justo ut ex fermentum, nec scelerisque nisl commodo. Integer posuere turpis vitae facilisis dignissim.
             </p>
-          </div>
-          <div className="bg-slate-800 rounded-lg">
+          </div>          <div className="bg-slate-50 rounded-lg">
             <div className="min-h-fit h-36 overflow-hidden">
               <Image className="pb-4 object-cover w-full" src="/bg-testemonials-default.png" alt="" sizes="100vw" width={100} height={100} ></Image>
             </div>
@@ -133,13 +131,14 @@ export default function Web() {
             </div>
             <h1 className="font-light text-slate-500 px-4" >Name of people</h1>
             <h2 className="font-normal text-slate-950 px-4 text-2xl"> Segmentation of bussiness </h2>
-            <div className="text-center py-2 my-4 text-xl font-medium bg-gradient-to-b from-blue-600 to-blue-800 -mx-1">
+            <div className="text-center py-2 mt-4 text-xl font-medium bg-gradient-to-b from-blue-600 to-blue-800 -mx-1">
               Title of testemonials
             </div>
-            <p className="px-4 text-slate-950 font-light py-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tempor dolor, quis malesuada diam. Integer imperdiet justo ut ex fermentum, nec scelerisque nisl commodo. Integer posuere turpis vitae facilisis dignissim. Vestibulum mollis urna aliquet, suscipit est at, sodales elit. Aenean nec erat sagittis, suscipit ante non, sodales nunc.
+            <p className="px-4 font-light text-slate-950 py-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu tempor dolor, quis malesuada diam. Integer imperdiet justo ut ex fermentum, nec scelerisque nisl commodo. Integer posuere turpis vitae facilisis dignissim.
             </p>
           </div>
+
         </div>
       </section>
     </>
