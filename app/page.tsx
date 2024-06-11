@@ -23,7 +23,7 @@ export default function Web() {
     <>
       <section className="w-full relative h-100 ">
         <div className="absolute flex flex-col w-full justify-center items-center md:items-center p-4 mt-1  h-full">
-          <h1 className="mb-4 w-full text-2xl md:text-center text-white text-center font-normal leading-none tracking-tight dark:text-white md:text-2xl xl:text-4xl"> Your Bussines </h1>
+          <h1 className="mb-4 w-full text-2xl md:text-center text-white text-center font-normal leading-none tracking-tight dark:text-white md:text-2xl xl:text-4xl"> Your Bussiness </h1>
           <p className="text-4xl text-white font-semibold"> Digital Marketing Agency</p>
           <p className="text-2xl text-white font-extralight mt-4"> Discover Serenity in Every Click: Welcome to RelaxAds – Where Tranquility Meets Innovation</p>
         </div>
